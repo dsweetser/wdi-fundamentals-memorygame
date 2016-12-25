@@ -1,3 +1,74 @@
-/* This is a multi-line
-comment. Add your CSS code
-from Unit 1 - 5 below  */
+header {
+	text-align: center;
+}
+
+nav{
+	text-decoration: none;
+	background: #808080;
+}
+
+nav a {
+	text-decoration: none;
+	background: #ffbf00;
+	color: #ffffff;	
+	padding: 35px;
+	display: block;
+	float: left;
+}
+
+nav a:hover {
+	background: #ee5f3c;
+}
+
+h1{
+	color: rgb(2, 132, 130);	}
+	}
+
+h2{
+	color: #ffd700;
+	}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+footer {
+	background: #808080;
+	text-align: center;
+}
+
+.board{
+	display: inline-block;
+	height: 50%;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.card{
+	height: 200px;
+	width: 150px;
+	background: rgba(255,255,0,1);
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba(0,0,0,1);
+	border-radius: 10px;
+	float: left;
+	margin: 8%;
+}
+
+.footspan{
+	color: #ff0000;
+}
+
+.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+}
