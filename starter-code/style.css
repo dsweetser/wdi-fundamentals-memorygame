@@ -41,6 +41,12 @@ footer {
 	text-align: center;
 }
 
+img{
+	height:200px;
+	width:150px;
+	border-radius:10px;
+}
+
 .board{
 	display: inline-block;
 	height: 50%;
